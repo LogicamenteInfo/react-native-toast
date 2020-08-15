@@ -19,7 +19,7 @@
     "expo"
   ],
   "author": "Logicamente",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/logicamenteinfo/react-native-toast/issues"
   },

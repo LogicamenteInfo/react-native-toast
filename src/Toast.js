@@ -6,12 +6,14 @@ const ToastRef = React.createRef();
 const ToastStyle = StyleSheet.create({
   container: {
     position: 'absolute',
-    backgroundColor: '#303030',
+    zIndex: 1040,
+    backgroundColor: '#505050',
     borderRadius: 5,
     elevation: 5,
     shadowColor: 'black',
-    shadowOpacity: 0.5,
-    shadowRadius: 5,
+    shadowOpacity: 0.3,
+    shadowOffset: { width: 0, height: 0 },
+    shadowRadius: 1,
   },
   text: {
     color: 'white',
@@ -114,7 +116,7 @@ class ToastComponent extends React.Component {
   }
 }
 
-export default (props) => {
+export default props => {
   return <ToastComponent {...props} ref={ToastRef} />;
 };
 
