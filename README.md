@@ -1,6 +1,6 @@
 # React-Native-Toast
 
-[ ![NPM version](http://img.shields.io/npm/v/react-native-easy-toast.svg?style=flat)](https://www.npmjs.com/package/@logicamente.info/react-native-toast)
+[ ![NPM version](http://img.shields.io/npm/v/@logicamente.info/react-native-toast.svg?style=flat)](https://www.npmjs.com/package/@logicamente.info/react-native-toast)
 [![License MIT](http://img.shields.io/badge/license-MIT-orange.svg?style=flat)](https://raw.githubusercontent.com/logicamenteinfo/react-native-toast/master/LICENSE)
 
 Another toast for RN, but now without relying on native module as ToastAndroid
