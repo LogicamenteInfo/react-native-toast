@@ -1,0 +1,51 @@
+{
+  "name": "react-native-toast",
+  "version": "1.0.0",
+  "description": "Toast Component meant to be used in expo/RN apps using not native directives",
+  "main": "./lib/Toast.js",
+  "scripts": {
+    "start": "cp src/Toast.js demo/ && cd demo && npm run start",
+    "build": "babel src -d lib",
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/logicamenteinfo/react-native-toast.git"
+  },
+  "keywords": [
+    "react-native",
+    "component",
+    "toast",
+    "expo"
+  ],
+  "author": "Logicamente",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/logicamenteinfo/react-native-toast/issues"
+  },
+  "homepage": "https://github.com/logicamenteinfo/react-native-toast#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-eslint": "^10.1.0",
+    "babel-preset-expo": "~8.1.0",
+    "babel-preset-minify": "^0.5.1",
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "prettier": "^2.0.5",
+    "react": "^16.0",
+    "react-native": ">=0.57"
+  },
+  "peerDependencies": {
+    "react": "^16.0",
+    "react-native": ">=0.57"
+  }
+}
