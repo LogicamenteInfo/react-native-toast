@@ -1,6 +1,6 @@
 {
   "name": "@logicamente.info/react-native-toast",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Toast Component meant to be used in expo/RN apps using not native directives",
   "main": "./lib/Toast.js",
   "scripts": {
